@@ -13,11 +13,12 @@ The enhanced DE algorithm tackles the exploration challenges at the search space
 🧑‍💻 Code:
 The implementation of the enhanced DE algorithm is provided in the Jupyter notebook EML_Project_code.ipynb. The notebook includes the following sections:
 
-Initialization: Randomly initializes a population of potential neural network architectures within predefined bounds.
-Mutation: Implements a probabilistic mechanism for incorporating boundary individuals in the mutation process.
-Crossover and Selection: Performs crossover and selection as per the standard DE process.
-Fitness Evaluation: Trains neural networks with the generated architectures and evaluates their performance on a validation set.
-Iteration: Repeats the mutation, crossover, selection, and fitness evaluation steps until the maximum number of generations is reached or an acceptable fitness level is achieved.
+1) Initialization: Randomly initializes a population of potential neural network architectures within predefined bounds.
+2) Mutation: Implements a probabilistic mechanism for incorporating boundary individuals in the mutation process.
+3) Crossover and Selection: Performs crossover and selection as per the standard DE process.
+4) Fitness Evaluation: Trains neural networks with the generated architectures and evaluates their performance on a validation set.
+5) Iteration: Repeats the mutation, crossover, selection, and fitness evaluation steps until the maximum number of generations is reached or an acceptable fitness level is achieved.
+
 Dependencies
 Python 3.7+
 NumPy
